@@ -18,7 +18,7 @@ arrInterval[counter] = setTimeout(function(){
     alert("blast off");
     countdowneElem.innerHTML = "launch successful!";
 }
-else if (currTime <25){
+else if (currTime >25){
     countdown.innerHTML= "Warning Less than 1/2 way to launch, time left = insert variable here = " + currTime;
 }
 else{
