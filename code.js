@@ -57,3 +57,21 @@ function stopbuttonclick(){
         clearTimeout(arrInterval[counter]);
     }
 }
+function GetUserInput(){
+    var FullName="";
+do{
+var FirstName=prompt("Please enter first name");
+var LastName=prompt("please enter last name");
+FullName=FirstName + " " + LastName;
+if (FullName.length>20){
+    alert("20 character max");
+}
+}while (FullName.length>20);
+do{
+    var Badge=prompt("Please enter you badge number");
+    if (Badge>999){
+        alert("3 digits max");
+    }
+    }while (Badge>999);
+
+}
