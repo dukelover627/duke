@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    background-color: darkgreen;
+    color: black;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+table{
+    width: 50%;
+}
